@@ -33,8 +33,11 @@ Par exemple, si $z = 5 + 3i$ alors $\overline{z} = 5 - 3i$ est le conjugué de $
 
 Si l’on peut représenter l’ensemble des nombres réels sur une droite, on constate que nous pouvons représenter les nombres complexes sur un repère orthonormé.
 
-Par exemple, pour un nombre complexe $z$, nous pourrions le représenter par un point sur ce repére où sa partie réelle serait représentée sur *l’abscisse* et
-sa partie imaginaire serait représentée par *l’ordonnée*.
+Par exemple, pour un nombre complexe $z$, nous pourrions le représenter par un point sur ce repère où sa partie réelle serait représentée sur *l’abscisse* et sa partie imaginaire serait représentée par *l’ordonnée*.
+
+Ainsi, si nous voulions représenter le nombre complexe $z = 3i - 2$, qui aurait pour abscisse $-2$ et
+pour ordonnée $3$, nous pourrions procéder comme suit :
+
 
 \begin{center}
 \begin{tikzpicture}[scale=2,cap=round,>=latex]
