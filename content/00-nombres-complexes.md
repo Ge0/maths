@@ -36,8 +36,29 @@ Si l’on peut représenter l’ensemble des nombres réels sur une droite, on c
 Par exemple, pour un nombre complexe $z$, nous pourrions le représenter par un point sur ce repère où sa partie réelle serait représentée sur *l’abscisse* et sa partie imaginaire serait représentée par *l’ordonnée*.
 
 Ainsi, si nous voulions représenter le nombre complexe $z = 3i - 2$, qui aurait pour abscisse $-2$ et
-pour ordonnée $3$, nous pourrions procéder comme suit :
+pour ordonnée $3$, nous pourrions procéder comme sur la figure \ref{ImagePointZ1}.
 
+
+
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\begin{axis}[
+    axis y line=middle,
+	axis x line=middle,
+	xmin=-5,
+	xmax=5,
+	ymin=-5,
+	ymax=5,
+	extra x ticks={-3,-1,1,3},
+	extra y ticks={-3,-1,1,3},
+]
+\node[label={180:{M (-2,3)}},circle,fill,inner sep=2pt] at (axis cs:-2,3) {};
+\end{axis}
+\end{tikzpicture}
+\caption{Point image du complexe $z = 3i - 2$}
+\label{ImagePointZ1}
+\end{figure}
 
 \begin{center}
 \begin{tikzpicture}[scale=2,cap=round,>=latex]

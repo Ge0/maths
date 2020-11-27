@@ -1,7 +1,9 @@
 ---
-Title: Math
+title: Math
 author: Geoffrey Royer
+lang: fr-FR
 header-includes: |
     \usepackage{tikz}
+    \usepackage{pgfplots}
 abstract: Suite d’explications mathématiques.
 ---
