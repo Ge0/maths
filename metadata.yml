@@ -1,0 +1,7 @@
+---
+Title: Math
+author: Geoffrey Royer
+header-includes: |
+    \usepackage{tikz}
+abstract: Suite d’explications mathématiques.
+---
