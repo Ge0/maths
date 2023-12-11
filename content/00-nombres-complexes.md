@@ -60,20 +60,20 @@ pour ordonnée $3$, nous pourrions procéder comme sur la figure \ref{ImagePoint
 \label{ImagePointZ1}
 \end{figure}
 
-\begin{center}
-\begin{tikzpicture}[scale=2,cap=round,>=latex]
-	% draw the coordinates
-	\draw[->] (-1.5cm,0cm) -- (1.5cm,0cm) node[right,fill=white] {$x$};
-	\draw[->] (0cm,-1.5cm) -- (0cm,1.5cm) node[above,fill=white] {$y$};
+% \begin{center}
+% \begin{tikzpicture}[scale=2,cap=round,>=latex]
+%	% draw the coordinates
+%	\draw[->] (-1.5cm,0cm) -- (1.5cm,0cm) node[right,fill=white] {$x$};
+%	\draw[->] (0cm,-1.5cm) -- (0cm,1.5cm) node[above,fill=white] {$y$};
 
 	% draw the unit circle
-	\draw[thick] (0cm,0cm) circle(1cm);
+	% \draw[thick] (0cm,0cm) circle(1cm);
 
 	% draw the horizontal and vertical coordinates
 	% the placement is better this way
-	\draw (-1.25cm,0cm) node[above=1pt] {$(-1,0)$}
-		  (1.25cm,0cm)  node[above=1pt] {$(1,0)$}
-		  (0cm,-1.25cm) node[fill=white] {$(0,-1)$}
-		  (0cm,1.25cm)  node[fill=white] {$(0,1)$};
-\end{tikzpicture}
-\end{center}
+%	\draw (-1.25cm,0cm) node[above=1pt] {$(-1,0)$}
+%		  (1.25cm,0cm)  node[above=1pt] {$(1,0)$}
+%		  (0cm,-1.25cm) node[fill=white] {$(0,-1)$}
+%		  (0cm,1.25cm)  node[fill=white] {$(0,1)$};
+% \end{tikzpicture}
+% \end{center}
